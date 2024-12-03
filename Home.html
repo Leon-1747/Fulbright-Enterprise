@@ -1,0 +1,216 @@
+<html lang="en"> 
+<head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fulbright Construction</title>
+    <style>
+        body {
+            background-color: #3333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            width: 300px;
+            height: 300px;
+        }
+        header .left-img {
+            left: 30px;
+        }
+        header .right-img {
+            right:30px;
+        }
+        header nav {
+            margin-top: 10px;
+        }
+        header nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .hero {
+            background: #000000 center/cover no-repeat;
+            color: #fff;
+            height: 300px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        .slideshow {
+            width: 80%;
+            margin: 30px auto;
+            position: relative;
+            max-width: 800px;
+        }
+        .slideshow img {
+            width: 100%;
+            height: auto;
+            display: none;
+        }
+        .slideshow img.active {
+            display: block;
+        }
+        .services img, .projects img, .testimonials img {
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+        .services, .projects, .testimonials {
+            background: #f4f4f4;
+        }
+        .services h2, .projects h2, .testimonials h2 {
+            margin-bottom: 20px;
+        }
+        .services .service, .projects .project, .testimonials .testimonial {
+            display: inline-block;
+            margin: 15px;
+            width: 250px;
+            text-align: left;
+        }
+        .testimonial img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+        .video-section {
+            padding: 50px;
+            text-align: center;
+            background: #333;
+            color: white;
+        }
+        .video-section video {
+            width: 80%;
+            max-width: 800px;
+            height: auto;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="prof2.jpg" alt="Logo Left" class="left-img">
+        <h1>Fulbright Enterprise</h1>
+        <img src="roof.jpg" alt="Logo Right" class="right-img">
+        <nav>
+            <a href="about.html">About Us</a>
+            <a href="services_projects.html">Services & Projects</a>
+            <a href="testimonials_gallery.html">Testimonials & Gallery</a>
+            <a href="contact_us.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Turning Visions Into Reality</h1>
+        <p>With Fulbright, every project is built on quality, integrity, and excellence.</p>
+    </div>
+
+    <section id="services" class="services">
+        <h2>What We Do</h2>
+        <div class="service">
+            <h3>Residential Construction</h3>
+            <img src="prof1.jpg" alt="Residential">
+            <p>From dream homes to renovations, we’ve got you covered.</p>
+        </div>
+        <div class="service">
+            <h3>Commercial Projects</h3>
+            <img src="laying.jpg" alt="Commercial">
+            <p>Building spaces for business success.</p>
+        </div>
+        <div class="service">
+            <h3>Custom Designs</h3>
+            <img src="floor28.jpg" alt="Custom Designs">
+            <p>We help in designing and make your designs come to be.</p>
+        </div>
+    </section>
+
+    <div class="slideshow">
+        <img src="floor20.jpg" alt="Slide 1" class="active">
+        <img src="floor23.jpg" alt="Slide 2">
+        <img src="floor24.jpg" alt="Slide 3">
+    </div>
+
+    <section id="projects" class="projects">
+        <h2>Our Work Speaks for Itself</h2>
+        <div class="project">
+            <h3>Floor Sanding</h3>
+            <img src="floor.jpg" alt="Floor Sanding">
+            <p>Sanding of 230 square meters. The first floor has been completed but the ground floor is yet to be started.</p>
+        </div>
+        <div class="project">
+            <h3>House Design</h3>
+            <img src="prof1.jpg" alt="House Design">
+            <p>Floor sanding, doors and wooden door frames, architraves, skirting.</p>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <img src="wall.jpg" alt="Client 1">
+            <p>"Fulbright did the unthinkable and blew us away with their amazing skills and workmanship, they truly are talented. They always get work done within their set timeframes, a trustworthy company that delivers excellence."</p>
+            <p>- Tatenda Mushonga</p>
+        </div>
+        <div class="testimonial">
+            <img src="floor27.jpg" alt="Client 2">
+            <p>"Amazing quality and professionalism, everything was done to the utmost best and transparently, everything that needed to be moved was moved carefully and put back carefully. Definitely a good recommendation."</p>
+            <p>- Tapiwa Zvomuya</p>
+        </div>
+    </section>
+
+    <section class="video-section">
+        <h2>Watch Us in Action</h2>
+        <video controls autoplay muted>
+            <source src="prof6.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fulbright Enterprise. All Rights Reserved.</p>
+        <p>Address: 3992/275B Northway Prospect Waterfalls</p>
+        <p>Phone: +263 772 364 225, +263 783 030 422 | Email: mawudzic@gmail.com</p>
+    </footer>
+
+    <script>
+        let slides = document.querySelectorAll(".slideshow img");
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            slides[currentSlide].classList.remove("active");
+            currentSlide = (index + slides.length) % slides.length;
+            slides[currentSlide].classList.add("active");
+        }
+
+        setInterval(() => showSlide(currentSlide + 1), 3000);
+    </script>
+</body>
+</html>
