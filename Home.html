@@ -1,9 +1,9 @@
-<html lang="en"> 
+<html lang="en">  
 <head>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fulbright Construction</title>
+    <title>Fulbright Enterprise</title>
     <style>
         body {
             background-color: #3333;
@@ -21,14 +21,42 @@
         header img {
             position: absolute;
             top: 10px;
-            width: 300px;
-            height: 300px;
+            max-width: 100%; 
+            height: auto; 
         }
         header .left-img {
             left: 30px;
         }
         header .right-img {
-            right:30px;
+            right: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            header img {
+                width: 150px; 
+            }
+
+            header .left-img {
+                left: 15px; 
+            }
+
+            header .right-img {
+                right: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header img {
+                width: 100px; 
+            }
+
+            header .left-img {
+                left: 10px;
+            }
+
+            header .right-img {
+                right: 10px;
+            }
         }
         header nav {
             margin-top: 10px;
@@ -122,9 +150,9 @@
         <img src="roof.jpg" alt="Logo Right" class="right-img">
         <nav>
             <a href="About.html">About Us</a>
-            <a href="services_projects.html">Services & Projects</a>
-            <a href="testimonials_gallery.html">Testimonials & Gallery</a>
-            <a href="contact_us.html">Contact Us</a>
+            <a href="Services_projects.html">Services & Projects</a>
+            <a href="Testimonials_gallery.html">Testimonials & Gallery</a>
+            <a href="Contact_us.html">Contact Us</a>
         </nav>
     </header>
 
